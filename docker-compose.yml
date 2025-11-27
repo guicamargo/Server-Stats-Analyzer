@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  test-server:
+    build: .
+    container_name: server-stats-test
+    hostname: test-server
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+    volumes:
+      - ./server-stats.sh:/scripts/server-stats.sh:ro
+    environment:
+      - TERM=xterm-256color
