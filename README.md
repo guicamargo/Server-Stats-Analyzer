@@ -1,6 +1,6 @@
 # Server Stats Analyzer
 
-Script para análise de performance de servidores Linux desenvolvido do zero como projeto de aprendizado.
+Script para análise de performance de servidores Linux desenvolvido como projeto de aprendizado prático. Implementação baseada no desafio Server Stats do [roadmap.sh](https://roadmap.sh/projects/server-stats)
 
 ## 📋 Funcionalidades
 
